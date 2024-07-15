@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ /*font-family: 'Poppins', sans-serif; */
+
+ /* font-family: 'Kalam', cursive;
+ font-family: 'Poppins', sans-serif; */
+ header{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-size: cover;
+    color: white;
+ }
+ nav{
+    width: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+ }
+ .logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+ }
+.manu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
+.manu a:nth-child(5){
+    background: #6ab04c;
+    border-radius: 8px;
+    margin: 0 1rem;
+}
+.manu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+
+.manu a:hover{
+    /* Styles for the element when not hovered */
+    color: #6ab04c;
+ 
+  }
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 0 70px;
+   
+}
+
+.left h2{
+    font-family: 'Poppins', sans-serif; 
+    color: #6ab04c;
+
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+   font-size: 5em;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+
+.firstsection-img{
+    height:450px
+}
+
+#hire{
+    text-decoration: none;
+    background:#6ab04c;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    margin: 0 1rem;
+}
+#myp{
+    text-decoration: none;
+    color: #6ab04c;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px dashed #6ab04c;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    font-family: 'poppins', sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+    text-align: center;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.rightbio h1{
+    text-align: center;
+}
+
+.leftbio img{
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+}
+.rightbio{
+    text-align: right;
+   padding: 0 40px; 
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.3rem;
+}
+.rightbio h1{
+    font-size: 3rem;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#Follow{
+    text-align: center;
+}
+#Follow i{
+    color:#6ab04c;
+font-size: 1.5rem;
+margin: 0.05rem;
+}
+.link-h{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+#CV{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    margin:0 1rem;
+    border: 1px dashed grey;
+
+}
+#Services{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    background: bisque;
+    background: white;
+    
+}
+
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    background: white;
+    width: 80%;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    background: white
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: #6ab04c;
+}
+.cardimg img{
+width: 100%;
+}
+
+.services-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* footer{
+    background: #6ab04c;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+} */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+ul.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+ul.footer-nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.menu i {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .menu {
+        margin-top: 1em;
+    }
+} nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.menu i {
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    order: 2; /* Change the order to 2 for mobile */
+    padding: 20px;
+}
+#bio {
+    display: flex;
+    flex-wrap: wrap;
+    background:#00293a
+}
+
+
+
+.leftbio {
+    flex: 0 0 100%; /* Full width on mobile */
+    text-align: center;
+    order:2;
+    
+}
+
+.leftbio img {
+    height: 400px;
+    width: 400px;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.rightbio {
+    order:1;
+    flex: 0 0 100%; /* Full width on mobile */
+    padding: 0 15px; /* Adjust spacing on the sides */
+}
+
+.rightbio p {
+    color:white;
+    text-align: center;
+}
+
+.rightbio h1{
+    color:white
+}
+
+.rightbio h3 {
+    color:white;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div {
+    flex: 0 0 48%; /* Two columns on larger screens */
+    text-align: center;
+}
+
+.link-h a {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .manu {
+        margin-top: 1em;
+    }
+
+    .firstsection-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    #hire,
+    #myp {
+        font-size: 1rem; /* Adjust the font size for mobile screens */
+        padding: 0.75rem 1.5rem; /* Adjust the padding for mobile screens */
+        margin: 0.5rem 0; /* Adjust the margin for mobile screens */
+    }
+}
